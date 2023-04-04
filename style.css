@@ -1,0 +1,93 @@
+/* CSS */
+img{
+	width: 350px;
+	border-radius: 7px;
+}
+body{
+	background-color: rgb(232, 223, 202);
+	color: rgb(174, 189, 202);
+	font-family: Helvetica, monospace;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: rgb(232, 213, 196);
+}
+h1{
+	font-family: times, monospace;
+	color: rgb(120, 149, 178);
+	font-size: 32px;
+	font-weight: 800;
+}
+h2{
+	color: rgb(120, 149, 178);
+	font-size: 18px;
+	font-weight: 300;
+}
+a:hover {
+	color: white;
+}
+h1, h2, h3{
+	font-family: 'Lora', serif;
+}
+div{
+	background: rgb(245, 239, 230);
+	border-color: rgb(232, 223, 202);
+	border-spacing: 10px;
+	padding: 30px;
+	border-radius: 10px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+/* custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background-color: rgb(232, 223, 202); 
+}
+@media (max-width: 760px) {
+	.container {
+	width: 600px
+}
+}
+@media (max-width: 500px) {
+	.container {
+	width: 400px
+}
+}
+.card-white {
+	background-color: rgb(245, 239, 230);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 2%;
+}
+.btn-blue {
+	background-color: rgb(25, 167, 206); 
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.btn-blue:hover {
+	background-color: black; 
+	color: white;
+}
+.list-inline {
+	font-size: 50px;
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
